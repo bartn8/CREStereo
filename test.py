@@ -6,7 +6,7 @@ import argparse
 import numpy as np
 import cv2
 
-from nets import Model
+from nets.crestereo import CREStereo as Model
 
 
 def load_model(model_path):
